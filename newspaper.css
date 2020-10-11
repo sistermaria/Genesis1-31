@@ -1,0 +1,30 @@
+body { 
+ margin: 0;
+}
+.container {
+    border: 6px solid black
+    border: 6px solid black;
+    display: flex;
+	flex-wrap:wrap;
+	justify-content:space-around;
+	
+}
+.flex-item {
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+	flex:stretch;
+}
+.item-1 {
+    background-color:#F5807A ;
+}
+.item-2 {
+    background-color: #ECF57A;
+}
+.item-3 {
+    background-color: #9DCCEE;
+	}
+.newspaper{
+column-count:3;
+}
